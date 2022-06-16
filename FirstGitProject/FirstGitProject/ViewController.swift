@@ -13,7 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Привет, ЭТо я")
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("А это я")
+    }
 }
 
 
